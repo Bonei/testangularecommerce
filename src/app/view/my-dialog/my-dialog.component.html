@@ -1,0 +1,36 @@
+<h2 mat-dialog-title>Form Dialog Modal</h2>
+
+<mat-dialog-content [formGroup]="form">
+  
+    <mat-form-field>
+        <input matInput
+            placeholder="Título"
+            formControlName="titulo">
+    </mat-form-field>
+
+    <mat-form-field>
+        <input matInput
+            placeholder="Nome"
+            formControlName="nome">
+    </mat-form-field>
+
+    <mat-form-field>
+        <textarea matInput
+            placeholder="Descrição"
+            formControlName="descricao">
+        </textarea>
+    </mat-form-field>
+
+    <mat-form-field>
+            <input matInput
+                formControlName="imagem"
+                placeholder="Url da Imagem"
+                type="url">
+    </mat-form-field>
+
+</mat-dialog-content>
+
+<mat-dialog-actions>
+    <button class="mat-raised-button"(click)="close()">Fechar</button>
+    <button class="mat-raised-button"(click)="save()">Criar</button>
+</mat-dialog-actions>
