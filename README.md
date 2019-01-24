@@ -8,12 +8,12 @@ Card Angular Material
 
    [Link of the Test](https://gitlab.com/amarkes/teste-frontend/tree/master "Test's Homepage")
 
-   [Demo](https://gitlab.com/amarkes/teste-frontend/tree/master)
+   [Demo](https://cardangularmaterial.herokuapp.com/)
 
 	 * Before anything 
 
       * RUN npm install -g @angular/cli
-      
+
       * npm install
 
     ___________________________________
