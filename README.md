@@ -11,7 +11,9 @@ Card Angular Material
    [Demo](https://gitlab.com/amarkes/teste-frontend/tree/master)
 
 	 * Before anything 
+
       * RUN npm install -g @angular/cli
+      
       * npm install
 
     ___________________________________
